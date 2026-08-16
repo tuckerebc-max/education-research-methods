@@ -1,0 +1,6 @@
+interface:
+  display_name: "Education Research Methods"
+  short_description: "Audit education research design"
+  default_prompt: "Use $education-research-methods for a source-grounded, bounded Education research: design, evidence, reporting, and judgment workflow."
+policy:
+  allow_implicit_invocation: true

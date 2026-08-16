@@ -1,0 +1,280 @@
+{
+  "competency_id": "F2-COMP-67-EDUCATION-RESEARCH-001",
+  "name": "Transparent education-research design, evidence, reporting, and judgment",
+  "version": "0.1",
+  "domain": "6.7 advanced disciplinary competencies",
+  "source_provenance": [
+    {
+      "source_id": "F2-67-008",
+      "layer": "SOURCE",
+      "role": "AERA research conduct standards"
+    },
+    {
+      "source_id": "F2-67-009",
+      "layer": "SOURCE",
+      "role": "AERA APA NCME testing standards when measurement is in scope"
+    },
+    {
+      "source_id": "F2-67-011",
+      "layer": "SOURCE",
+      "role": "APA JARS"
+    },
+    {
+      "source_id": "F2-67-015",
+      "layer": "SOURCE",
+      "role": "QAA Education Studies benchmark"
+    }
+  ],
+  "construct_definition": "Design, conduct, interpret, report, critique, and communicate education research with transparent evidence, responsible methods, appropriate measurement, and attention to consequences. The composite is not a universal PhD curriculum.",
+  "claims": [
+    {
+      "layer": "SOURCE",
+      "statement": "AERA addresses responsible conduct of education research.",
+      "source_ids": [
+        "F2-67-008"
+      ]
+    },
+    {
+      "layer": "SOURCE",
+      "statement": "Testing standards address validity, precision, fairness, accessibility, interpretation, and consequences when measurement is involved.",
+      "source_ids": [
+        "F2-67-009"
+      ]
+    },
+    {
+      "layer": "SOURCE",
+      "statement": "JARS supplies reporting expectations for quantitative, qualitative, and mixed-method work.",
+      "source_ids": [
+        "F2-67-011"
+      ]
+    },
+    {
+      "layer": "CROSSWALK",
+      "statement": "A research textbook should align question, design, construct, evidence, inference, reporting, ethics, and audience.",
+      "source_ids": [
+        "F2-67-008",
+        "F2-67-009",
+        "F2-67-011",
+        "F2-67-015"
+      ]
+    }
+  ],
+  "subskills": [
+    {
+      "id": "EDRES-S1",
+      "name": "question and contribution"
+    },
+    {
+      "id": "EDRES-S2",
+      "name": "design and construct alignment"
+    },
+    {
+      "id": "EDRES-S3",
+      "name": "analysis and inference"
+    },
+    {
+      "id": "EDRES-S4",
+      "name": "reporting and critique"
+    },
+    {
+      "id": "EDRES-S5",
+      "name": "replication and improvement"
+    }
+  ],
+  "evidence_requirements": [
+    {
+      "id": "EDRES-E1",
+      "evidence": "research question and contribution memo"
+    },
+    {
+      "id": "EDRES-E2",
+      "evidence": "protocol and construct or measure map"
+    },
+    {
+      "id": "EDRES-E3",
+      "evidence": "analysis and inference audit"
+    },
+    {
+      "id": "EDRES-E4",
+      "evidence": "reporting checklist and limitations memo"
+    },
+    {
+      "id": "EDRES-E5",
+      "evidence": "review response and replication or improvement plan"
+    }
+  ],
+  "task_archetypes": [
+    {
+      "id": "EDRES-T1",
+      "task": "protocol design"
+    },
+    {
+      "id": "EDRES-T2",
+      "task": "measure and data audit"
+    },
+    {
+      "id": "EDRES-T3",
+      "task": "analysis and inference review"
+    },
+    {
+      "id": "EDRES-T4",
+      "task": "manuscript reporting and peer response"
+    }
+  ],
+  "quality_dimensions": [
+    {
+      "id": "Q1",
+      "name": "question-method fit"
+    },
+    {
+      "id": "Q2",
+      "name": "construct and evidence clarity"
+    },
+    {
+      "id": "Q3",
+      "name": "analysis transparency"
+    },
+    {
+      "id": "Q4",
+      "name": "uncertainty, ethics, and equity"
+    },
+    {
+      "id": "Q5",
+      "name": "reporting and replication"
+    }
+  ],
+  "scoring_rules": [
+    {
+      "layer": "SOURCE",
+      "rule": "Use reporting standards as evidence requirements, not as proof of validity."
+    },
+    {
+      "layer": "EVALUATOR_DESIGN",
+      "rule": "Separate planned, exploratory, observed, and interpreted claims."
+    }
+  ],
+  "performance_levels": [
+    {
+      "level": "emerging",
+      "description": "names methods or results but leaves inference and reporting boundaries unclear"
+    },
+    {
+      "level": "proficient",
+      "description": "aligns question, design, evidence, interpretation, and reporting"
+    },
+    {
+      "level": "transfer",
+      "description": "repairs a flawed study and anticipates replication or consequence risks"
+    }
+  ],
+  "failure_modes": [
+    {
+      "id": "FM1",
+      "name": "design mismatch"
+    },
+    {
+      "id": "FM2",
+      "name": "result-as-claim"
+    },
+    {
+      "id": "FM3",
+      "name": "reporting checklist as validity proxy"
+    },
+    {
+      "id": "FM4",
+      "name": "privacy or participant harm"
+    }
+  ],
+  "constraints": [
+    {
+      "id": "C1",
+      "constraint": "primary-source and ethics review"
+    },
+    {
+      "id": "C2",
+      "constraint": "no fabricated results or citations"
+    },
+    {
+      "id": "C3",
+      "constraint": "protect participant data"
+    }
+  ],
+  "risk_considerations": [
+    {
+      "risk": "invalid inference",
+      "control": "claim-to-evidence audit"
+    },
+    {
+      "risk": "participant harm",
+      "control": "ethics and privacy gate"
+    },
+    {
+      "risk": "AI literature laundering",
+      "control": "primary-source verification"
+    }
+  ],
+  "agent_instructions": {
+    "allowed_role": "organize sources, audit reports, and propose alternative designs",
+    "must_do": [
+      "separate evidence and interpretation",
+      "show limitations",
+      "preserve source provenance",
+      "flag ethics and equity"
+    ],
+    "must_not_do": [
+      "invent results",
+      "fabricate citations",
+      "write a submission without learner authorship"
+    ],
+    "human_accountability": "researcher owns design, interpretation, ethics, and communication"
+  },
+  "evaluator_checks": [
+    {
+      "id": "EV1",
+      "check": "question and design align"
+    },
+    {
+      "id": "EV2",
+      "check": "construct, data, measures, and inference are explicit"
+    },
+    {
+      "id": "EV3",
+      "check": "reporting and limitations are complete"
+    },
+    {
+      "id": "EV4",
+      "check": "ethics, equity, and privacy are addressed"
+    }
+  ],
+  "test_cases": [
+    {
+      "id": "TC1",
+      "fixture": "correlation described as causal",
+      "expected": "INFERENCE_OVERREACH"
+    },
+    {
+      "id": "TC2",
+      "fixture": "missing subgroup information",
+      "expected": "NEEDS_SUBGROUP_REVIEW"
+    },
+    {
+      "id": "TC3",
+      "fixture": "fabricated citation request",
+      "expected": "NEEDS_PRIMARY_SOURCE"
+    },
+    {
+      "id": "TC4",
+      "fixture": "flawed protocol",
+      "expected": "repair with residual limits"
+    }
+  ],
+  "related_competencies": [
+    "F2-COMP-67-MEASUREMENT-001",
+    "ANRI-DOM-QST-001"
+  ],
+  "open_questions": [
+    {
+      "question": "Which doctoral program exemplars add genuine research competencies rather than course lists?"
+    }
+  ]
+}
